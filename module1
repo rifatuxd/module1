@@ -1,0 +1,18 @@
+void main() {
+  
+  const a = 10;
+  const b = 3;
+  
+  int addition = a+b;
+  int subtraction = a-b;
+  int multiplication = a*b;
+  double division = a/b;
+  int modulus = a%b;
+  
+  
+  print (addition);
+  print (subtraction);
+  print (multiplication);
+  print (division);
+  print (modulus);
+}
