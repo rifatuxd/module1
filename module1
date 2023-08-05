@@ -1,18 +1,21 @@
 void main() {
   
+ //Calculation Program
+  
   const a = 10;
   const b = 3;
   
-  int addition = a+b;
-  int subtraction = a-b;
-  int multiplication = a*b;
-  double division = a/b;
-  int modulus = a%b;
+  int addNumbers = a+b;
+  int subNumbers = a-b;
+  int multiNumbers = a*b;
+  double divNumbers = a/b;
+  int modNumbers = a%b;
   
-  
-  print (addition);
-  print (subtraction);
-  print (multiplication);
-  print (division);
-  print (modulus);
+  print ('a= $a, b = $b');
+  print ('Addition: $a + $b = $addNumbers');
+  print ('Subtraction: $a - $b = $subNumbers');
+  print ('Multiplication: $a * $b = $multiNumbers');
+  print ('Division: $a / $b = $divNumbers');
+  print ('Modulus: $a % $b = $modNumbers');
+
 }
